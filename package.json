@@ -15,22 +15,23 @@
     "dev:mp-weixin": "cross-env NODE_ENV=development UNI_PLATFORM=mp-weixin vue-cli-service uni-build --watch"
   },
   "dependencies": {
-    "@dcloudio/uni-h5": "*",
-    "@dcloudio/uni-mp-alipay": "*",
-    "@dcloudio/uni-mp-baidu": "*",
-    "@dcloudio/uni-mp-weixin": "*",
+    "@dcloudio/uni-h5": "0.0.9",
+    "@dcloudio/uni-mp-alipay": "0.0.5",
+    "@dcloudio/uni-mp-baidu": "0.0.3",
+    "@dcloudio/uni-mp-weixin": "0.0.3",
+    "circular-json": "^0.5.9",
     "flyio": "^0.6.2",
+    "js-base64": "^2.5.0",
     "vue": "^2.5.17",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@dcloudio/uni-cli-shared": "*",
-    "@dcloudio/vue-cli-plugin-uni": "latest",
-    "@dcloudio/webpack-uni-mp-loader": "*",
-    "@dcloudio/webpack-uni-pages-loader": "*",
+    "@dcloudio/uni-cli-shared": "0.1.5",
+    "@dcloudio/vue-cli-plugin-uni": "0.4.8",
+    "@dcloudio/webpack-uni-mp-loader": "0.1.4",
+    "@dcloudio/webpack-uni-pages-loader": "0.0.9",
     "@vue/cli-plugin-babel": "3.1.1",
     "@vue/cli-service": "^3.2.0",
-    "babel-plugin-import": "^1.11.0",
     "vue-template-compiler": "^2.5.17"
   },
   "browserslist": [
